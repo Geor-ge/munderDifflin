@@ -1,3 +1,35 @@
 body{
+  background-color: #EAE1C0;
   font-family: "actor", sans-serif;
+}
+
+.banner{
+  background-color: #483A3A;
+  color: #FFF;
+}
+
+#container{
+  width: 100%;
+  display: grid;
+  grid-template: 100px 500px/ repeat(4, 250px);
+  justify-content: space-around;
+}
+
+#xerox{
+  grid-area: 2/1/span 1/span 1;
+}
+#hammermill{
+  grid-area: 2/2/span 1/span 1;
+}
+#hp{
+  grid-area: 2/3/span 1/span 1;
+}
+#boise{
+  grid-area: 2/4/span 1/span 1;
+}
+
+.card{
+  width: 200px;
+  height: 400px;
+  background-color: #DE564B;
 }
