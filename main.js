@@ -1,5 +1,4 @@
 let driveTruck = document.getElementById("drive-truck");
-driveTruck.addEventListener("click", driveIntoFrame);
 
 
 function driveIntoFrame() {
