@@ -35,7 +35,8 @@ ul, li{
   padding-left: 2%;
 }
 #banner{
-  height: 100%;
+  width: 100%
+  height: 300px;
   background-color: #00B4FF;
   color: #FFF;
 }
@@ -57,7 +58,7 @@ ul, li{
   align-items: center;
 }
 
-#featured img{
+img{
   width: 200px;
   height: 150px';
 }
@@ -74,11 +75,27 @@ ul, li{
   background-color: #EEE;
   color: #00B4FF;
 }
+#customer img{
+  float: right;
+  position: relative;
+  bottom: 40px;
+}
+
 #shipping{
   color: #00B4FF;
 }
+
 #truck{
   margin-top: 2%;
+  width: 400px;
+  height: 200px;
+}
+#truck-text{
+  font-size: 1.5em;
+  display: none;
+  position: relative;
+  right: 100px;
+  bottom: 180px;
 }
 #contact{
   border-color: #515151;
